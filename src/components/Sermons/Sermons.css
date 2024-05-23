@@ -1,0 +1,74 @@
+.sermonImagesWrapper {
+  display: flex;
+  padding-inline: 6rem;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sermonBgImage {
+  height: 450px;
+  width: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.sermonContent {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.sermonContent button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.sermonContent button:hover {
+  background-color: #ffd615;
+  border-color: #ffd615;
+}
+
+.sermonImgBottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sermonImgBottom > span {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.sermonImgBottom > small {
+  color: grey;
+}
+
+.sermonsBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline: auto;
+  font-size: 18px;
+  background-color: #ffd615;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+}

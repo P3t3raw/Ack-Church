@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Style for the announcements section */
+.announcements {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Style for the section title */
+.announcements h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Style for individual announcement */
+.announcement {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* Style for announcement title */
+.announcement h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* Style for announcement date */
+.announcement-date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Style for announcement description */
+.announcement p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+.announcement-list {
+  margin-inline: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+  gap: 30px;
+}
+.announcement-list > div {
+  /* outline: 1px solid grey; */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
